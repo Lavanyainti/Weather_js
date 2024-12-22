@@ -160,3 +160,4 @@ async function getFetchData(endpoint,city){
    const response=await fetch(apiUrl);
    return response.json();
 }
+

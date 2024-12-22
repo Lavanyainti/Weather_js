@@ -158,3 +158,73 @@ body::before{
     width: 200px;
     height: 300px;
 }
+.weather-img{
+  width: 120px;
+  height: 120px;
+}
+
+@media(max-width:600px ) {
+
+    .main-container{
+      width: 300px;
+      height: 400px;
+      background: linear-gradient(to top, rgb(0,0,0,0.15),rgba(187, 95, 95, 0.09));
+      border-radius: 12px;
+      backdrop-filter: blur(100px);
+      padding: 10px;
+    }
+.input-container{
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+    .city-input{
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 99px;
+      background: rgb(0,0,0,0.15);
+      border: 1px solid transparent;
+      outline: none;
+      font-weight: 100px;
+      transition: 0.25s border;
+      padding-right: 20px;
+      color: white;
+      align-items: center;
+    }
+    .message-img{
+      width: 100px;
+      height: 120px;
+      margin-bottom: 20px;
+    }
+    .location-date-container{
+      margin-bottom: 10px;
+    }
+
+    .weather-summary-container{
+      margin-bottom: 30px;
+    }
+   .weather-img{
+      width: 80px;
+      height: 50px;
+   }
+   .temp-txt{
+    font-size: 15px;
+   }
+   .condition-txt{
+    font-size: 15px;
+   }
+  .regular-text{
+    font-weight: 200;
+  }
+   .humidity-wind{
+    font-size: 15px;
+   }
+
+   .forecast-item-img{
+    width: 50px;
+    height: 50px;
+  }
+  .forecast-item-container{
+    margin-top: 20px;
+  }
+}
